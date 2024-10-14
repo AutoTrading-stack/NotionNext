@@ -25,7 +25,7 @@ const BLOG = {
   CUSTOM_MENU: process.env.NEXT_PUBLIC_CUSTOM_MENU || true, // 支持Menu 类型，从3.12.0版本起，各主题将逐步支持灵活的二级菜单配置，替代了原来的Page类型，此配置是试验功能、默认关闭。
 
   AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || 'X', // 您的昵称 例如 tangly1024
-  BIO: process.env.NEXT_PUBLIC_BIO || '"X老师，物理学界的领军人物⚛️，拥有超过20年的教学经验📚，指导过数千名学生在物理学习中脱颖而出🎓。他不仅擅长深入浅出的教学方式🔍，还能够将复杂的物理原理化繁为简，让学生们轻松掌握💡。X老师曾多次获奖🏆，并在全国级别的竞赛中培养了无数获奖选手✨。他的课堂既充满趣味，又富有挑战性，带领学生们探索宇宙的奥秘🌌！"🍚', // 作者简介
+  BIO: process.env.NEXT_PUBLIC_BIO || '', // 作者简介
   LINK: process.env.NEXT_PUBLIC_LINK || '', // 网站地址
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'X老师的博客', // 网站关键词 英文逗号隔开
 
