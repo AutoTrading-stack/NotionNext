@@ -20,14 +20,14 @@ const BLOG = {
   // 3.14.1版本后，欢迎语在此配置，英文逗号隔开 ,  即可支持多个欢迎语打字效果。
   GREETING_WORDS:
     process.env.NEXT_PUBLIC_GREETING_WORDS ||
-    'Hi！我们提供专业的物理教学服务📚为初高中物理冲刺助力🚀！,Hi！我们是一群热爱物理的团队,Hi！欢迎来到周老师的博客🎉，一起探索物理的奇妙世界吧！',
+    'Hi！我们提供专业的物理教学服务📚为初高中物理冲刺助力🚀！,Hi！我们是一群热爱物理的团队,Hi！欢迎来到骁张老师的博客🎉，一起探索物理的奇妙世界吧！',
 
   CUSTOM_MENU: process.env.NEXT_PUBLIC_CUSTOM_MENU || true, // 支持Menu 类型，从3.12.0版本起，各主题将逐步支持灵活的二级菜单配置，替代了原来的Page类型，此配置是试验功能、默认关闭。
 
-  AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || '周老师', // 您的昵称 例如 tangly1024
-  BIO: process.env.NEXT_PUBLIC_BIO || '周老师拥有超过20年的丰富教学经验📚，培养了数千名学生在物理学科中取得优异成绩🎓。他善于通过深入浅出的教学方式🔍，将复杂的物理原理化繁为简，帮助学生轻松掌握核心知识💡，从而在考试和竞赛中脱颖而出。周老师曾多次获得教学大奖🏆，并成功指导学生在全国级别的物理竞赛中屡获佳绩✨。他的课堂不仅充满趣味，更具有挑战性，能够有效提升学生的学习兴趣和解题能力，帮助他们在学业中取得更高的分数📈。', // 作者简介
+  AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || '骁张老师', // 您的昵称 例如 tangly1024
+  BIO: process.env.NEXT_PUBLIC_BIO || '骁张老师拥有超过20年的丰富教学经验📚，培养了数千名学生在物理学科中取得优异成绩🎓。他善于通过深入浅出的教学方式🔍，将复杂的物理原理化繁为简，帮助学生轻松掌握核心知识💡，从而在考试和竞赛中脱颖而出。周老师曾多次获得教学大奖🏆，并成功指导学生在全国级别的物理竞赛中屡获佳绩✨。他的课堂不仅充满趣味，更具有挑战性，能够有效提升学生的学习兴趣和解题能力，帮助他们在学业中取得更高的分数📈。', // 作者简介
   LINK: process.env.NEXT_PUBLIC_LINK || '', // 网站地址
-  KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || '周老师的博客', // 网站关键词 英文逗号隔开
+  KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || '骁张老师的博客', // 网站关键词 英文逗号隔开
 
   // 社交链接，不需要可留空白，例如 CONTACT_WEIBO:''
   CONTACT_EMAIL: process.env.NEXT_PUBLIC_CONTACT_EMAIL || '', // 邮箱地址 例如mail@tangly1024.com
